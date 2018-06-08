@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/espada"
+    tools:context="com.xd.casoprog.Menu_act">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="548dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="450dp"
+            android:orientation="horizontal"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            tools:layout_width="wrap_content">
+
+            <Button
+                android:id="@+id/btnJuego"
+                android:layout_width="37dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:background="@drawable/playbutton"
+                tools:layout_editor_absoluteX="60dp"
+                tools:layout_editor_absoluteY="150dp" />
+
+            <Button
+                android:id="@+id/btnScores"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/troffy"
+                tools:layout_editor_absoluteX="50dp"
+                tools:layout_editor_absoluteY="350dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
